@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'master-machine' } 
+    agent { label 'built-in' } 
     stages {
         stage('Checkout') {
             steps {
